@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="*" />
+            android:text="X" />
 
         <Button
             android:id="@+id/button1"
