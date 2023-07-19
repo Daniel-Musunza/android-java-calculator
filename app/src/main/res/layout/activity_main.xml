@@ -152,8 +152,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:layout_rowSpan="2"
-            android:layout_rowWeight="2"
+            android:layout_rowWeight="1"
             android:text="+" />
 
         <Button
@@ -162,18 +161,25 @@
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_columnWeight="2"
-            android:layout_rowSpan="2"
-            android:layout_rowWeight="2"
+            android:layout_rowWeight="1"
             android:text="=" />
 
         <Button
             android:id="@+id/clearButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="2"
-            android:layout_columnWeight="2"
+            android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="AC" />
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="C"
+            android:background="@color/red" />
+
 
     </GridLayout>
 </RelativeLayout>

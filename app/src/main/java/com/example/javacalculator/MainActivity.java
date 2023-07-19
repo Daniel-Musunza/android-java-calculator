@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 double resultValue = evaluateExpression(input);
                 result = String.valueOf(resultValue);
             } catch (Exception e) {
-                result = "Error";
+                result = "Syntax Error";
             }
         } else {
             String buttonText = button.getText().toString();
