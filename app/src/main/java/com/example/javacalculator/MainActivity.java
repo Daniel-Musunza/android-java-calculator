@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.decimalButton).setOnClickListener(this);
         findViewById(R.id.equalsButton).setOnClickListener(this);
         findViewById(R.id.clearButton).setOnClickListener(this);
+        findViewById(R.id.deleteButton).setOnClickListener(this);
     }
 
     @Override
@@ -51,7 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (viewId == R.id.clearButton) {
             input = "";
             result = "";
-        } else if (viewId == R.id.addButton || viewId == R.id.subtractButton ||
+        }else if (viewId == R.id.deleteButton) {
+            input -= button.getText().toString();
+        }else if (viewId == R.id.addButton || viewId == R.id.subtractButton ||
                 viewId == R.id.multiplyButton || viewId == R.id.divideButton) {
             input += button.getText().toString();
         } else if (viewId == R.id.equalsButton) {
