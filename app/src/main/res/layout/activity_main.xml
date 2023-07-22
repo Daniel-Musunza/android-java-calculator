@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="X" />
+            android:text="*" />
 
         <Button
             android:id="@+id/button1"
@@ -178,7 +178,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="C"
-            android:background="@color/red" />
+            />
 
 
     </GridLayout>
